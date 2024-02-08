@@ -4,4 +4,4 @@ const person = {
   sons: ["Laura", "Diego"],
 };
 
-console.log(person);
+console.log("person");
