@@ -1,3 +1,3 @@
 # javascript-pro
 
-#segunda parte del curso
+#segunda parte del curso Udemy 
