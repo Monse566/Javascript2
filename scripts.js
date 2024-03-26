@@ -74,3 +74,10 @@ console.log(Juan);
 console.log(Juan.saludar());
 
 console.log(Marta.saludar());*/
+
+//Arrays
+
+/*let word = "Hola mundo";
+
+console.log(Array.from(word));
+console.log(word.split(" "));*/
