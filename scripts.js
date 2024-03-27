@@ -81,3 +81,11 @@ console.log(Marta.saludar());*/
 
 console.log(Array.from(word));
 console.log(word.split(" "));*/
+
+const letters = ["b", "c", "z", "a"];
+const numbers = [1, 8, 100, 300, 10];
+
+console.log(letters.sort());
+console.log(numbers.sort());
+
+console.log(numbers.sort((a, b) => a - b));
