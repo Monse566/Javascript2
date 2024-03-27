@@ -75,17 +75,31 @@ console.log(Juan.saludar());
 
 console.log(Marta.saludar());*/
 
-//Arrays
+//Arrays SORT
 
 /*let word = "Hola mundo";
 
 console.log(Array.from(word));
 console.log(word.split(" "));*/
 
-const letters = ["b", "c", "z", "a"];
+/*const letters = ["b", "c", "z", "a"];
 const numbers = [1, 8, 100, 300, 10];
 
 console.log(letters.sort());
 console.log(numbers.sort());
 
-console.log(numbers.sort((a, b) => a - b));
+console.log(numbers.sort((a, b) => a - b));*/
+
+//Array FOR EACH
+
+/*const numbers = [12, 25, 47, 84, 98];
+
+numbers.forEach((number) => console.log(number));
+numbers.forEach((number, index) =>
+  console.log(`${number} esta en la posicion ${index}`)
+);
+
+const words = ["HTML", "CSS", "JavaScript", "PHP"];
+
+console.log(words.some((word) => word, length > 10));
+console.log(words.every((word) => word, length > 3));*/
