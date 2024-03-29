@@ -102,4 +102,11 @@ numbers.forEach((number, index) =>
 const words = ["HTML", "CSS", "JavaScript", "PHP"];
 
 console.log(words.some((word) => word, length > 10));
-console.log(words.every((word) => word, length > 3));*/
+console.log(words.every((word) => word, length > 3));
+
+const numbers = [12, 25, 47, 84, 98];
+
+numbers.map((number) => console.log(number * 3));
+
+const numbers2 = numbers.map((number) => number * 2);
+console.log(numbers2);*/
