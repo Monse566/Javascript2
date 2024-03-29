@@ -104,9 +104,59 @@ const words = ["HTML", "CSS", "JavaScript", "PHP"];
 console.log(words.some((word) => word, length > 10));
 console.log(words.every((word) => word, length > 3));
 
+//MAP
+
 const numbers = [12, 25, 47, 84, 98];
 
 numbers.map((number) => console.log(number * 3));
 
 const numbers2 = numbers.map((number) => number * 2);
 console.log(numbers2);*/
+
+//FILTER
+
+/*const numbers = [12, 25, 47, 84, 98];
+
+const numbers2 = numbers.filter((number) => number > 40);
+
+console.log(numbers2);*/
+
+//REDUCE
+
+/*const numbers = [1, 2, 3, 4, 5];
+
+console.log(numbers.reduce((a, b) => a + b));*/
+
+const users = [
+  {
+    name: "user1",
+    online: true,
+  },
+  {
+    name: "user2",
+    online: true,
+  },
+  {
+    name: "user3",
+    online: false,
+  },
+  {
+    name: "user4",
+    online: true,
+  },
+  {
+    name: "user5",
+    online: false,
+  },
+  {
+    name: "user6",
+    online: true,
+  },
+];
+
+const usersOnline = users.reduce((cont, user) => {
+  if (user.online) cont++;
+  return cont;
+}, 0);
+
+console.log(`Hay ${usersOnline} usuarios conectados`);
