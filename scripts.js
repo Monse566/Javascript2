@@ -125,7 +125,7 @@ console.log(numbers2);*/
 
 /*const numbers = [1, 2, 3, 4, 5];
 
-console.log(numbers.reduce((a, b) => a + b));*/
+console.log(numbers.reduce((a, b) => a + b));
 
 const users = [
   {
@@ -159,4 +159,4 @@ const usersOnline = users.reduce((cont, user) => {
   return cont;
 }, 0);
 
-console.log(`Hay ${usersOnline} usuarios conectados`);
+console.log(`Hay ${usersOnline} usuarios conectados`);*/
